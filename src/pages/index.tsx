@@ -1,20 +1,32 @@
 export default function Home() {
   return (
     <>
-      <main className="flex h-screen w-full gap-2 bg-green-500">
-        <div className="flex w-1/2 gap-2 bg-red-500">
-          <div className="w-1/2 border">
-            <h1>Imagem Personagem</h1>
+      <main className="flex h-screen w-screen gap-2 bg-[#152724]">
+        <div className="flex h-full w-full gap-2 bg-[#152724]">
+          <div className="h-full w-full bg-[#2C534A]">
+            <h1 className="text-4xl font-bold text-white">
+              Imagem do personagem
+            </h1>
           </div>
-          <div className="flex w-1/2 flex-col justify-between border">
-            <div className="h-full border">Menu 1</div>
-            <div className="h-full border">Menu 2</div>
-            <div className="h-full border">Menu 3</div>
+          <div className="flex h-full w-full flex-col justify-between bg-[#1D2F2C]">
+            <div className="w-full bg-[#2C534B]">
+              <h1 className="text-4xl font-bold text-white">Menu 1</h1>
+            </div>
+            <div className="w-full bg-[#2C534B]">
+              <h1 className="text-4xl font-bold text-white">Menu 2</h1>
+            </div>
+            <div className="w-full bg-[#2C534B]">
+              <h1 className="text-4xl font-bold text-white">Menu 3</h1>
+            </div>
           </div>
         </div>
-        <div className="w-1/2 gap-2 bg-blue-500">
-          <div className="h-1/2 border ">Mapa</div>
-          <div className="h-1/2 border">Atividade</div>
+        <div className="flex h-full w-full flex-col gap-2 bg-[#152724]">
+          <div className="h-full w-full bg-[#1D2F2C]">
+            <h1 className="text-4xl font-bold text-white">Mapa</h1>
+          </div>
+          <div className="h-full w-full bg-[#1D2F2C]">
+            <h1 className="text-4xl font-bold text-white">Atividades</h1>
+          </div>
         </div>
       </main>
     </>
